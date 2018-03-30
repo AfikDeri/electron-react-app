@@ -1,0 +1,58 @@
+.App ul {
+  list-style-type: none;
+}
+
+.App ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 27px;
+  line-height: 44px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.App ul li button {
+  margin: 4px;
+  border-radius: 3px;
+  width: 32px;
+  height: 35px;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: 1px 1px 11px #c3c3c3;
+}
+
+button.delete {
+  background: rgb(248, 44, 44);
+  border: 1px solid rgb(255, 0, 0);
+}
+
+button.complete {
+  background: #03A9F4;
+  border: 1px solid #2196F3;
+}
+
+.create-todo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #9E9E9E;
+  padding: 13px 30px;
+  box-shadow: 1px 1px 9px #d2d2d2;
+}
+
+.create-todo input {
+  height: 34px;
+  font-size: 18px;
+  padding-left: 11px;
+  border-radius: 3px;
+  border: 1px solid rgba(183, 183, 183, .52);
+  width: 80%;
+}
+
+.create-todo button {
+  width: 14%;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+  background: #03a9f4;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
